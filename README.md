@@ -1,15 +1,13 @@
 # SQL Data Cleaning & Exploratory Data Analysis (EDA) – Layoffs Dataset
 
-## 📌 Project Overview
+# Project Overview
 
 This project demonstrates SQL techniques for **data cleaning and exploratory data analysis (EDA)** using a layoffs dataset. The goal is to transform messy, inconsistent raw data into a clean format and generate insights about industry trends, company layoffs, and regional impacts.
 
----
+# Dataset
 
-## 📂 Dataset
-
-* **Source:** Layoffs dataset (publicly available on Kaggle or similar open data repositories).
-* **Files in this repo:**
+Source: Layoffs dataset (publicly available on Kaggle or similar open data repositories).
+Files in this repo:
 
   * `data/raw/layoffs_sample.csv` → small sample of raw dataset (for reference).
   * `data/cleaned/layoffs_cleaned.csv` → cleaned version exported from SQL.
@@ -21,7 +19,7 @@ This project demonstrates SQL techniques for **data cleaning and exploratory dat
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```
 SQL-Layoffs-EDA/
@@ -41,7 +39,7 @@ SQL-Layoffs-EDA/
 
 ---
 
-## 🔧 Data Cleaning Steps
+##  Data Cleaning Steps
 
 * Removed duplicates and null values
 * Standardized company and industry names
@@ -51,7 +49,7 @@ SQL-Layoffs-EDA/
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 * Layoffs by industry and company size
 * Trends over time (monthly/yearly analysis)
@@ -61,7 +59,7 @@ SQL-Layoffs-EDA/
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 * **Technology and Retail** sectors experienced the highest layoffs.
 * **2022–2023** saw a significant spike in layoffs globally.
@@ -69,7 +67,7 @@ SQL-Layoffs-EDA/
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Import the raw dataset into your SQL database.
 2. Run the scripts in `sql/data_cleaning.sql` to prepare the dataset.
